@@ -36,7 +36,7 @@ def assess_password_strength(password):
     # Provide feedback based on strength
     if strength == 2.5:
         return "Password is strong!", feedback
-    elif strength >= 1.25:
+    elif strength >= 1.5:
         return "Password is moderate.", feedback
     else:
         return "Password is weak.", feedback

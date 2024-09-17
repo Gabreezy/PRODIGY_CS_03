@@ -28,7 +28,7 @@ def assess_password_strength(password):
         feedback.append("Password should contain at least one number.")
 
     # Check for special characters
-    if re.search(r"\W","_", password):
+    if re.search(r"\W", password):
         strength += 0.5
     else:
         feedback.append("Password should contain at least one special character.")
